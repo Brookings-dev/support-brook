@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #101010;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1.mainDonationForm {
+  text-align: center;
+  font-weight: bold;
+  font-family: franklin-gothic-urw-comp, Helvetica, Arial, sans-serif;
+  font-size: 54px;
+  text-transform: uppercase;
+  margin: 0.5em 0 1em 0;
+}
+
+.donation-form-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  float: none !important;
+}
+
+.donation-form-row {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.donation-form-introduction {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "franklin-gothic-urw", arial, sans-serif !important;
+}
+
+.donation-form-intro-line {
+  margin: 18px 0px 18px 0px;
+}
+
+iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+  background-color: #fafafa !important;
+  width: 80% !important;
+  max-width: 1000px !important;
+}
+
+iframe.blackbaud-donation-form {
+  background-color: #fafafa !important;
+  /* width: 100% !important; */
+  max-width: 1000px !important;
+}
+
+#email-link {
+  text-decoration: none;
+  color: #101010;
+}
+
+div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 479px) {
+  h1.mainDonationForm {
+    padding: 0 10px;
+  }
+
+  iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+    width: 100% !important;
+  }
+  h1.mainDonationForm {
+    font-size: 48px;
+  }
+}
