@@ -69,9 +69,15 @@ div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
   background-color: transparent;
 }
 
+body.sky-theme-default {
+  overflow: hidden;
+
+}
+
 @media screen and (max-width: 479px) {
   h1.mainDonationForm {
     padding: 0 10px;
+    line-height: 1;
   }
 
   iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
