@@ -49,6 +49,11 @@ iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
   background-color: #fafafa !important;
   width: 80% !important;
   max-width: 1000px !important;
+  overflow: hidden !important;
+}
+
+.sky-section-heading {
+  padding-bottom: 20px !important;
 }
 
 iframe.blackbaud-donation-form {
@@ -69,10 +74,10 @@ div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
   background-color: transparent;
 }
 
-body.sky-theme-default {
-  overflow: hidden;
-
+.margin-stacked-default {
+  padding-bottom: 12px !important;
 }
+
 
 @media screen and (max-width: 479px) {
   h1.mainDonationForm {
@@ -83,6 +88,7 @@ body.sky-theme-default {
   iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
     width: 100% !important;
   }
+
   h1.mainDonationForm {
     font-size: 48px;
   }
