@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   position: relative;
   background-color: #fafafa;
@@ -45,20 +45,15 @@ h1.mainDonationForm {
   margin: 18px 0px 18px 0px;
 }
 
-iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+iframe#form_3c17c15f-b14d-45d3-93c3-493fd8bf5866 {
   background-color: #fafafa !important;
+  max-width: 1200px !important;
   width: 80% !important;
-  max-width: 1000px !important;
-  overflow: hidden !important;
-}
-
-.sky-section-heading {
-  padding-bottom: 20px !important;
 }
 
 iframe.blackbaud-donation-form {
   background-color: #fafafa !important;
-  /* width: 100% !important; */
+  width: 80% !important;
   max-width: 1000px !important;
 }
 
@@ -67,7 +62,7 @@ iframe.blackbaud-donation-form {
   color: #101010;
 }
 
-div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+div#blackbaud-donation-form_3c17c15f-b14d-45d3-93c3-493fd8bf5866 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,6 +73,55 @@ div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
   padding-bottom: 12px !important;
 }
 
+.section__more-info {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section__more-info h3 {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0.5em 0 1em 0;
+}
+
+.section__more-info {
+  font-family: 'franklin-gothic-urw', arial, sans-serif;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section__more-info ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section__more-info ul li {
+  padding: 10px 15px;
+  margin-right: 12px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.section__more-info ul li a:link,
+.section__more-info ul li a:visited {
+  font-weight: 500;
+  text-decoration: none;
+  color: #003d79;
+}
+
+.section__more-info ul li a:hover {
+  text-decoration: underline;
+}
+
+.section__more-info ul li {
+  margin-top: 7px;
+}
 
 @media screen and (max-width: 479px) {
   h1.mainDonationForm {
@@ -85,11 +129,15 @@ div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
     line-height: 1;
   }
 
-  iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+  iframe#form_3c17c15f-b14d-45d3-93c3-493fd8bf5866 {
     width: 100% !important;
   }
 
   h1.mainDonationForm {
     font-size: 48px;
+  }
+
+  iframe.blackbaud-donation-form {
+    width: 100% !important;
   }
 }
